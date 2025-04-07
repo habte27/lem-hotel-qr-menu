@@ -111,7 +111,7 @@ function filterProducts() {
 window.onload = function () {
     loadMenu();
     new QRCode(document.getElementById("qrcode"), { 
-        text: "https://lem-hotel-qr-room.vercel.app/",
+        text: "https://lem-hotel-qr-menu.vercel.app/",
          width: 128, 
          height: 128 
         });
