@@ -1,10 +1,10 @@
 // Product Data (Multilingual + Categories)
 const products = [
     { id: "product1", category: "breakfast", name: { en: "Scrambled Egg", am: "እንቁላል ፍርፍር" }, desc: { en: "Egg,Onion green butter chilli served with Enjera & bread", am: "እንቁላል, ሽንኩርት, አረንጓዴ ቃሪይ ከ እንጀራ ጋር ያገለገሉ።" }, price: "ETB 210.00 ", img: "product1.png" },
-    { id: "product2", category: "breakfast", name: { en: "Egg with Meat", am: "ዕንቁላል በሥጋ" }, desc: { en: "Egg, minced meat,onion, Ethiopian butter, with enjera & bread.", am: "እንቁላል፣ የተፈጨ ሥጋ፣ ሽንኩርት፣ የኢትዮጵያ ቅቤና ዳቦ።" }, price: "ETB 310.00", img: "product2.png" },
+    { id: "product2", category: "breakfast", name: { en: "Egg with Meat", am: "ዕንቁላል በሥጋ" }, desc: { en: "Egg, minced meat,onion, Ethiopian butter, with enjera & bread.", am: "እንቁላል፣ የተፈጨ ሥጋ፣ ሽንኩርት፣ የኢትዮጵያ ቅቤና ዳቦ።" }, price: "ETB 310.00", img: "R.jpeg" },
     { id: "product3", category: "drinks", name: { en: "Tea", am: "ቲና" }, desc: { en: "Black Tea with Sugar", am: "ጥቁር ቲና ከስኳር" }, price: "ETB 25.00", img: "tea.png" },
     { id: "product4", category: "breakfast", name: { en: " Lam Spcial Omlet", am: "ስፔሻል ኦምሌት" }, desc: { en: " Egg,beef,mozerella cheese,onion,black pepper,served with hot green chilli souce  &slices of bread.", am: "እንቁላል፣ ግራም ሞዜሬላ አይብ፣ ሽንኩርት፣ ጥቁር በርበሬ ከዳቦ እና Enjera  ጋር  ይቀርባል።" }, price: "ETB 360.00", img: "product1.png" },
-    { id: "product5", category: "breakfast", name: { en: "Egg with Meat", am: "እንቁላል ከስጋ" }, desc: { en: "Egg, minced meat, onions, butter", am: "እንቁላል፣ ቆሎሽ ስጋ፣ ሽንኩርት፣ ቅቤ" }, price: "ETB 310.00", img: "product2.png" },
+    { id: "product5", category: "breakfast", name: { en: "Egg with Meat", am: "እንቁላል ከስጋ" }, desc: { en: "Egg, minced meat, onions, butter", am: "እንቁላል፣ ቆሎሽ ስጋ፣ ሽንኩርት፣ ቅቤ" }, price: "ETB 310.00", img: "OIP.jpeg" },
     { id: "product5", category: "drinks", name: { en: "Tea", am: "ቲና" }, desc: { en: "Black Tea with Sugar", am: "ጥቁር ቲና ከስኳር" }, price: "ETB 25.00", img: "tea.png" },
     { id: "product6", category: "breakfast", name: { en: "Scrambled Egg", am: "የተዘጋጁ እንቁላል" }, desc: { en: "Egg, Onion, Butter, Chili", am: "እንቁላል፣ ሽንኩርት፣ ቅቤ፣ በርበሬ" }, price: "ETB 210.00", img: "product1.png" },
     { id: "product7", category: "breakfast", name: { en: "Egg with Meat", am: "እንቁላል ከስጋ" }, desc: { en: "Egg, minced meat, onions, butter", am: "እንቁላል፣ ቆሎሽ ስጋ፣ ሽንኩርት፣ ቅቤ" }, price: "ETB 310.00", img: "product2.png" },
