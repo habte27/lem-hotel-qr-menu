@@ -11,7 +11,7 @@ body {
 }
 .header{
     background-color: #2C5F2D;
-    padding: 15px 5px;
+    padding: 20px 15px;
     display: flex;
     flex-wrap: wrap;
     gap: 10px;
@@ -31,7 +31,7 @@ body {
 
 /* Logo and Title */
 .logo {
-    display: flex-start;
+    display: flex;
     align-items: center;
     gap: 10px;
 }
