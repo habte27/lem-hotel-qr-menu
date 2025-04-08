@@ -11,7 +11,7 @@ body {
 }
 .header{
     background-color: #2C5F2D;
-    padding: 15px 20px;
+    padding: 15px 10px;
     display: flex;
     flex-wrap: wrap;
     gap: 10px;
@@ -20,8 +20,8 @@ body {
     box-sizing: border-box;
     display: flex;
     align-items: center;
-    justify-content: space-around;
-    text-align: center;
+    justify-content: space-between;
+    text-align:justify;
     position: sticky;
     top: 0;
     left: 0;
@@ -43,7 +43,7 @@ body {
 
 #title {
     color: white;
-    font-size: 22px;
+    font-size: 20px;
     font-weight: bold;
     margin: 0;
 }
@@ -55,13 +55,13 @@ body {
     display: flex;
     align-items: center;
     gap: 10px;
-    max-width: 350px;
+    max-width: 300px;
     width: 100%;
 }
 
 #searchInput {
     flex-grow: 1;
-    padding: 8px 30px 8px 15px; /* Space for clear button */
+    padding: 8px 30px 8px 10px; /* Space for clear button */
     border-radius: 5px;
     border: 1px solid #ccc;
     width: 100%;
@@ -84,19 +84,19 @@ body {
 @media screen and (max-width: 768px) {
     .header {
         flex-direction: column;
-        align-items: center;
-        text-align: center;
+        align-items: justify;
+        text-align: justify;
     }
 
     .search-container {
         max-width: 100%;
-        justify-content: center;
+        justify-content:flex-start;
     }
 
     .language-selector {
         width: 100%;
         display: flex;
-        justify-content: center;
+        justify-content:flex-start;
     }
 }
 
