@@ -10,12 +10,12 @@ body {
     transition: background-color 0.3s ease-in-out;
 }
 .header{
-    background-color: #2C5F2D;
+    background-color: #064635;
     padding: 10px 10px;
     display: flex;
     flex-wrap: wrap;
     gap: 10px;
-    color: #fff;
+    color: #ffffff;
     width: 100%;
     box-sizing: border-box;
     display: flex;
